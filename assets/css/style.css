@@ -43,8 +43,13 @@ nav img {
   padding: 0.7rem;
   border-radius: 20px;
   color: white;
-  background-color: black;
+  background-color: rgb(32, 32, 32);
   cursor: pointer;
+}
+
+.div-container button:hover {
+  color: white;
+  background-color: black;
 }
 
 /* HERO SECTION ELEMENTS */
@@ -87,9 +92,12 @@ nav img {
   padding-inline: 3rem;
   border-radius: 20px;
   color: white;
+  background-color: rgb(32, 32, 32);
+  cursor: pointer;
+}
+.text-container button:hover {
   background-color: black;
 }
-
 /* TRENDIN ARTICLE ELEMENTS */
 .trending {
   margin-top: 2rem;
