@@ -50,6 +50,7 @@ nav img {
 .div-container button:hover {
   color: white;
   background-color: black;
+  transition: 0.5s;
 }
 
 /* HERO SECTION ELEMENTS */
@@ -97,6 +98,7 @@ nav img {
 }
 .text-container button:hover {
   background-color: black;
+  transition: 0.5s;
 }
 /* TRENDIN ARTICLE ELEMENTS */
 .trending {
@@ -171,6 +173,18 @@ nav img {
   width: 10%;
 }
 
+@media screen and (max-width: 900px) {
+  .svg-m {
+    display: none;
+  }
+  .text-container {
+    margin-inline: auto;
+    margin-right: unset;
+  }
+  .div-container {
+    margin-left: 2rem;
+  }
+}
 /* SECTION BOTTOM  */
 .bottom {
   margin-inline: 2rem;
