@@ -230,10 +230,8 @@ nav {
 
 /* ASIDE ELEMENTS */
 aside {
-  width: 35%;
-  padding-inline: 3rem;
   position: sticky;
-  top: 88px;
+  top: 100px;
   z-index: 4;
 }
 aside h2 {
