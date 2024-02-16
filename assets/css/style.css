@@ -23,6 +23,14 @@ nav {
   padding-block: 1.5rem;
   border-bottom: 1px solid black;
 }
+nav div a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+nav img {
+  cursor: pointer;
+}
 .div-container {
   display: flex;
   gap: 25px;
