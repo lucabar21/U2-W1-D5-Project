@@ -114,7 +114,7 @@ nav img {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .trending .top-title {
   align-items: center;
@@ -259,10 +259,14 @@ nav img {
 }
 
 /* ASIDE ELEMENTS */
+.sticky-section {
+  width: 40%;
+}
 aside {
   position: sticky;
   top: 100px;
   z-index: 4;
+  padding-inline: 4rem;
 }
 aside h2 {
   margin-top: 1rem;
@@ -279,7 +283,8 @@ aside h2 {
 
 .aside-btn button {
   border: none;
-  background-color: #f2f2f2;
+  border-color: #252525;
+  background-color: #f1f1f1;
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
