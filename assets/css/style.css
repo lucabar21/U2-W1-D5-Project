@@ -311,3 +311,109 @@ footer ul li a {
   color: black;
   opacity: 0.6;
 }
+
+/* SECOND FOOTER FOR MOBILE */
+.mobile {
+  font-family: "roboto", sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  padding-block: 1.8rem;
+  padding-inline: 2rem;
+  margin-top: 2rem;
+}
+.mobile path {
+  fill: white;
+}
+.a-div a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  font-weight: 300;
+  margin-right: 0.5rem;
+}
+.w-line {
+  background-color: white;
+  height: 1px;
+  margin-block: 0.7rem;
+}
+.mobile h2 {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 500px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /*   NAV SETTINGS MOBILE */
+  .div-container div:nth-child(1) {
+    display: none;
+  }
+  .div-container div:nth-child(2) {
+    display: none;
+  }
+  .div-container div:nth-child(3) {
+    display: none;
+  }
+
+  /* HERO SECTION SETTING MOBILE */
+  .text-container {
+    padding-inline: 2rem;
+    text-align: center;
+  }
+  .text-container p {
+    width: 100%;
+    padding-inline: 1rem;
+  }
+
+  /* BOTTOM SETTINGS MOBILE */
+  .bottom {
+    flex-direction: column-reverse;
+    margin-inline: 0.1rem;
+    align-items: center;
+  }
+  .mid-bot-text :nth-child(2) {
+    display: none;
+  }
+  .mid-bot-text :nth-child(1) {
+    font-size: 0.8em;
+  }
+  .bot-card {
+    width: 100%;
+    padding: unset;
+    margin-top: 2rem;
+  }
+  .bot-card .img-right {
+    width: 130px;
+  }
+  .down-bot-text button {
+    display: none;
+  }
+  .up-bot-text h2 {
+    font-size: 0.8rem;
+  }
+  .bot-left {
+    width: 100%;
+    padding-inline: 1rem;
+  }
+  aside {
+    padding-inline: 1rem;
+  }
+  .aside-btn {
+    flex-direction: column;
+  }
+  .desk {
+    display: none;
+  }
+  .sticky-section {
+    width: 100%;
+  }
+  .aside-btn {
+    flex-direction: row;
+  }
+}
