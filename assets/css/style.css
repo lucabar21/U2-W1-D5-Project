@@ -370,7 +370,10 @@ footer ul li a {
     width: 100%;
     padding-inline: 1rem;
   }
-
+  /* TRENDING SECTION SETTINGS */
+  .trending {
+    padding-inline: 1rem;
+  }
   /* BOTTOM SETTINGS MOBILE */
   .bottom {
     flex-direction: column-reverse;
