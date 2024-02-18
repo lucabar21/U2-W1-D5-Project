@@ -63,7 +63,7 @@ nav img {
   border-bottom: 1px solid black;
   padding-block: 5rem;
 }
-.svg-m {
+#svg-m {
   position: absolute;
   height: 100%;
   right: 0;
@@ -174,7 +174,7 @@ nav img {
 }
 
 @media screen and (max-width: 900px) {
-  .svg-m {
+  #svg-m {
     display: none;
   }
   .text-container {

@@ -35,7 +35,7 @@
         <h1>Stay curious.</h1>
         <p>Discover stories, thinking, and expertise from writers on any topic.</p>
         <button type="button">Start reading</button>
-        <div class="svg-m">
+        <div id="svg-m">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 585 462"
@@ -8384,6 +8384,21 @@
       });
 
       /* ANIMAZIONE DEGLI SVG IN HERO SECTION */
+
+      /* Step 1 - Richiamo il div contenitore dell' SVG dall'HTML */
+      let svgContainer = document.querySelector("#svg-m");
+      /* Step 2 - Richiamo il tag SVG dal div */
+      let svg = svgContainer.querySelector("svg");
+      /* Step 3 - Richiamo i tag G dall'SVG con attributo stroke-linecap" dall'SVG */
+      let GNode = svg.querySelectorAll("g[stroke-linecap]");
+
+      /* Step 4 - Definisco la funzione che sceglie random le M da modificare e che gli da un altro valore random di opacity per l'effetto sparizione */
+      function SwappingM() {
+        let random = GNode[Math.floor(Math.random() * GNode.length)];
+        random.setAttribute("opacity", Math.floor(Math.random() * 2));
+      }
+      /* Step 5 - Creo un setInterval per definire il timing di swap dell'opacity */
+      const intervalOfM = setInterval(SwappingM, 35);
     </script>
   </body>
 </html>
