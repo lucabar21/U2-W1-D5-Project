@@ -343,7 +343,7 @@ footer ul li a {
   font-weight: 400;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
   .mobile {
     display: none;
   }
@@ -420,3 +420,8 @@ footer ul li a {
     flex-direction: row;
   }
 }
+/* @media screen and (min-width: 500px) and (max-width: 700px) {
+  .mobile:nth-child(3) {
+    display: none;
+  }
+} */
