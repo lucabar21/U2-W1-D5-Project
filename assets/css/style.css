@@ -58,7 +58,7 @@ nav img {
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #ffc017;
   border-bottom: 1px solid black;
   padding-block: 5rem;
