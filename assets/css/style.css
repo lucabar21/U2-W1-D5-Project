@@ -426,4 +426,8 @@ footer ul li a {
   footer div:nth-last-child(3) {
     display: none;
   }
+  .top-card {
+    max-width: unset;
+    width: 100%;
+  }
 }
